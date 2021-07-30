@@ -1,0 +1,145 @@
+
+ROM used: 6234 (19%)
+          6234 (19%) including unused fragments
+
+          2 Average locations per line
+          11 Average locations per statement
+
+RAM used: 103 (7%) at main() level
+          127 (8%) worst case
+
+Stack used: 10 worst case (out of 31 total available)
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+  355   131  23  ex_modbus_master.c
+  416     0   0  C:\Program Files (x86)\PICC\Devices\18f458.h
+ 1840   395  70  modbus.c
+  100    40   7  lcd.c
+----- -----
+ 2711   566 Total
+
+Page ROM  %  RAM   Vol Diff  Functions:
+---- --- --- ---   --- ----  ----------
+0     40   0   1             @delay_ms1
+0     36   0   1             @delay_us1
+0     64   1   1             @PUTCHAR_1_
+0     72   1   1             @GETCH_1_
+0     10   0   0             @PUTCHARI_BIU_2
+0     22   0   0             @GETCH_BIU_2
+0    290   2   0             @const127
+0    290   2   0             @const129
+0     12   0   0   172  2.7  RCV_ON
+0     24   0   0   130  2.3  modbus_init
+0     14   0   1   121  2.2  modbus_enable_timeout
+0     46   0   0   254  5.0  modbus_timeout_now
+0     50   0   3   256  3.7  modbus_calc_crc
+0     34   0   1   125  2.6  modbus_serial_putc
+0    110   1   3   778  6.3  incomming_modbus_serial
+0     48   0   3   274  4.3  modbus_serial_send_start
+0     58   0   3   432  5.7  modbus_serial_send_stop
+0     32   0   0   225  5.4  modbus_kbhit
+0    138   1   6   504  5.7  modbus_read_coils
+0    138   1   6   504  5.7  modbus_read_discrete_input
+0    138   1   6   504  5.7  modbus_read_holding_registers
+0    138   1   6   504  5.7  modbus_read_input_registers
+0    138   1   5   506  6.0  modbus_write_single_coil
+0    138   1   6   504  5.7  modbus_write_single_register
+0    152   1   6   504  5.7  modbus_diagnostics
+0    238   2  10   864  9.7  modbus_write_multiple_coils
+0    264   2  12   888  8.5  modbus_write_multiple_registers
+0     30   0   0             @const250
+0     30   0   1   134  2.2  lcd_send_nibble
+0     56   0   3   262  3.9  lcd_send_byte
+0     88   1   2   422  4.7  lcd_init
+0     34   0   4   186  5.5  lcd_gotoxy
+0     68   1   1   275  3.9  lcd_putc
+0     54   0   0   141  1.8  print_menu
+0     46   0   0             @const271
+0     32   0   2             @PSTRINGC_66
+0     54   0   0             @const273
+0     54   0   0             @const274
+0     68   1   0             @const275
+0     64   1   0             @const276
+0    142   1   1   392  5.9  read_all_coils
+0     10   0   0             @const278
+0      8   0   0             @const279
+0     62   0   2             @PRINTF_X_66
+0      6   0   0             @const284
+0     26   0   0             @const285
+0     30   0   3             @PSTRINGCN_66
+0    142   1   1   392  5.9  read_all_inputs
+0     10   0   0             @const289
+0      8   0   0             @const290
+0      6   0   0             @const292
+0     26   0   0             @const293
+0    142   1   1   392  5.9  read_all_holding
+0     22   0   0             @const295
+0      8   0   0             @const296
+0      6   0   0             @const298
+0     26   0   0             @const299
+0    198   2   1   605  6.1  read_all_input_reg
+0     20   0   0             @const301
+0      8   0   0             @const302
+0     26   0   0             @const303
+0     32   0   2             @PSTRINGC_265
+0     64   1   2             @PRINTF_X_265
+0      6   0   0             @const310
+0     26   0   0             @const311
+0    148   1   1   392  5.9  write_coil
+0     24   0   0             @const313
+0      8   0   0   392  5.9  @const314
+0      6   0   0             @const316
+0     26   0   0             @const317
+0    150   1   1   392  5.9  write_reg
+0     28   0   0             @const319
+0      8   0   0   392  5.9  @const320
+0      6   0   0             @const322
+0     26   0   0             @const323
+0    168   1   2   459  6.0  write_coils
+0     26   0   0             @const326
+0      8   0   0   459  6.0  @const327
+0      6   0   0             @const329
+0     26   0   0             @const330
+0    174   1   5   473  6.0  write_regs
+0     30   0   0             @const333
+0      8   0   0   473  6.0  @const334
+0      6   0   0             @const336
+0     26   0   0             @const337
+0    166   1   1   432  6.0  unknown_func
+0     26   0   0             @const339
+0     14   0   0   432  6.0  @const340
+0      6   0   0             @const341
+0      6   0   0             @const343
+0     26   0   0             @const344
+0     34   0   1   173  3.0  parse_read
+0     44   0   0             @goto10935
+0     38   0   1   214  3.0  parse_write
+0     46   0   0             @goto10949
+0    212   2   2   497  3.3  MAIN
+0     18   0   0             @const354
+0     12   0   0   497  3.3  @const355
+0     24   0   0             @const356
+0     24   0   0             @const357
+
+Program metrics:
+    Functions               43
+    Statements              566
+    Comments                778
+    Volume (V)              33275
+    Difficilty (D)          208.8
+    Effort to implement (E) 6948726
+    Time to implement (T)   107 hours, 14 minutes
+    Est Delivered Bugs (B)  12
+    Cyclomatic Complexity   77
+    Maintainability (MI)    109
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00002     4  0  
+00004-00006     0  4  
+00008-000A0   154  0  
+000A2-07FFE  6076  26530  
+
+
+

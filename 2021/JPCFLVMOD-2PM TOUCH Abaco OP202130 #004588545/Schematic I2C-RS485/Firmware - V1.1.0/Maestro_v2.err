@@ -1,0 +1,21 @@
+>>> Warning 202 "Maestro_v2.c" Line 30(114,125): Variable never used:   flag_alarma
+>>> Warning 202 "Maestro_v2.c" Line 33(77,79): Variable never used:   UV
+>>> Warning 202 "Maestro_v2.c" Line 36(61,68): Variable never used:   Perdida
+>>> Warning 202 "Maestro_v2.c" Line 38(6,7): Variable never used:   q
+>>> Warning 202 "Maestro_v2.c" Line 38(10,11): Variable never used:   r
+>>> Warning 202 "Maestro_v2.c" Line 42(88,95): Variable never used:   tvidrio
+>>> Warning 202 "Maestro_v2.c" Line 52(18,26): Variable never used:   Downflow
+>>> Warning 202 "Maestro_v2.c" Line 53(31,41): Variable never used:   x_cuadrado
+>>> Warning 202 "Maestro_v2.c" Line 53(46,52): Variable never used:   x_cubo
+>>> Warning 202 "Maestro_v2.c" Line 60(7,18): Variable never used:   PromPresion
+>>> Warning 202 "Maestro_v2.c" Line 62(7,9): Variable never used:   V1
+>>> Warning 202 "Maestro_v2.c" Line 62(14,21): Variable never used:   Presion
+>>> Warning 202 "Maestro_v2.c" Line 64(7,13): Variable never used:   pulsos
+>>> Warning 202 "Maestro_v2.c" Line 64(16,23): Variable never used:   retardo
+>>> Warning 202 "Maestro_v2.c" Line 66(7,12): Variable never used:   Cruce
+>>> Warning 202 "Maestro_v2.c" Line 67(7,18): Variable never used:   tiempocruce
+>>> Warning 202 "Maestro_v2.c" Line 68(6,16): Variable never used:   Porcentaje
+>>> Warning 202 "Maestro_v2.c" Line 69(7,13): Variable never used:   Tcruce
+>>> Warning 202 "Maestro_v2.c" Line 69(18,25): Variable never used:   Tcruce2
+      Memory usage:   ROM=65%      RAM=42% - 43%
+      0 Errors,  19 Warnings.

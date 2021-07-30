@@ -1,0 +1,6 @@
+>>> Warning 206 "D:\Laboratorio\Modulo Flujo Laminar\2021\JPCFLVMOD-2PM TOUCH Abaco OP202130 #0045884XX\Ejemplo MODBUS\Schematic I2C-RS485\RS485_I2C\modbus.c" Line 712(1,1): Variable of this data type is never greater than this constant
+>>> Warning 204 "D:\Laboratorio\Modulo Flujo Laminar\2021\JPCFLVMOD-2PM TOUCH Abaco OP202130 #0045884XX\Ejemplo MODBUS\Schematic I2C-RS485\RS485_I2C\modbus.c" Line 712(1,1): Condition always FALSE
+>>> Warning 216 "RS485_I2C.c" Line 289(0,1): Interrupts disabled during call to prevent re-entrancy:  (modbus_calc_crc)
+>>> Warning 202 "D:\Laboratorio\Modulo Flujo Laminar\2021\JPCFLVMOD-2PM TOUCH Abaco OP202130 #0045884XX\Ejemplo MODBUS\Schematic I2C-RS485\RS485_I2C\modbus.c" Line 236(8,11): Variable never used:   rs232_errors
+      Memory usage:   ROM=11%      RAM=60% - 60%
+      0 Errors,  4 Warnings.

@@ -1,0 +1,4 @@
+>>> Warning 216 "ex_modbus_master.c" Line 356(0,1): Interrupts disabled during call to prevent re-entrancy:  (modbus_calc_crc)
+>>> Warning 202 "D:\Laboratorio\Modulo Flujo Laminar\2021\JPCFLVMOD-2PM TOUCH Abaco OP202130 #0045884XX\Ejemplo MODBUS\PICmodbus-master\modbus.c" Line 236(8,11): Variable never used:   rs232_errors
+      Memory usage:   ROM=19%      RAM=7% - 8%
+      0 Errors,  2 Warnings.

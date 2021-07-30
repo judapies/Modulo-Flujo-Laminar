@@ -1,0 +1,15 @@
+>>> Warning 202 "CabinaCFLH.c" Line 44(185,196): Variable never used:   flag_arriba
+>>> Warning 202 "CabinaCFLH.c" Line 44(201,206): Variable never used:   Entro
+>>> Warning 202 "CabinaCFLH.c" Line 52(65,66): Variable never used:   n
+>>> Warning 202 "CabinaCFLH.c" Line 59(16,23): Variable never used:   retardo
+>>> Warning 202 "CabinaCFLH.c" Line 60(17,22): Variable never used:   Purga
+>>> Warning 202 "CabinaCFLH.c" Line 61(7,18): Variable never used:   tiempocruce
+>>> Warning 202 "CabinaCFLH.c" Line 62(6,16): Variable never used:   Porcentaje
+>>> Warning 202 "CabinaCFLH.c" Line 63(7,13): Variable never used:   Tcruce
+>>> Warning 202 "CabinaCFLH.c" Line 63(18,25): Variable never used:   Tcruce2
+>>> Warning 202 "CabinaCFLH.c" Line 66(7,9): Variable never used:   Ta
+>>> Warning 202 "CabinaCFLH.c" Line 66(10,12): Variable never used:   Tb
+>>> Warning 202 "CabinaCFLH.c" Line 66(13,17): Variable never used:   TICK
+>>> Warning 202 "CabinaCFLH.c" Line 67(6,15): Variable never used:   BIT_START
+      Memory usage:   ROM=52%      RAM=11% - 13%
+      0 Errors,  13 Warnings.

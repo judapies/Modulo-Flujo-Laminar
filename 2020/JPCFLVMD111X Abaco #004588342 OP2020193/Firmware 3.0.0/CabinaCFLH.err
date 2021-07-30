@@ -1,0 +1,6 @@
+>>> Warning 202 "CabinaCFLH.c" Line 44(107,113): Variable never used:   flaguv
+>>> Warning 202 "CabinaCFLH.c" Line 59(17,22): Variable never used:   Purga
+>>> Warning 202 "CabinaCFLH.c" Line 62(7,13): Variable never used:   Tcruce
+>>> Warning 202 "CabinaCFLH.c" Line 62(18,25): Variable never used:   Tcruce2
+      Memory usage:   ROM=50%      RAM=9% - 11%
+      0 Errors,  4 Warnings.

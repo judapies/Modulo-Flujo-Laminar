@@ -1,0 +1,82 @@
+
+typedef struct{
+   char Letra[20];
+}MENUU;
+
+MENUU Menus;
+ 
+void displayContrasena(int digito, int x, int y, int sombreado)
+{
+   char voltage[9];
+   sprintf(voltage, "%i", digito);
+   
+   if(sombreado==1)
+      {glcd_rect(x, y, x+18, y+24, YES, ON);glcd_text57(x+2, y+1, voltage, 2, OFF);}
+   else   
+      {glcd_rect(x, y, x+18, y+24, NO, OFF);glcd_text57(x+2, y+1, voltage, 2, ON);}
+
+}
+
+void displayTiempo(int digito, int x, int y, int sombreado, int tamano)
+{
+   char voltage[9];
+   sprintf(voltage, "%i", digito);
+   
+   if(sombreado==1)
+      {glcd_rect(x, y, x+(tamano*6), y+(tamano*8), YES, ON);glcd_text57(x+2, y+1, voltage, tamano, OFF);}
+   if(sombreado==0)
+      {glcd_rect(x, y, x+(tamano*6), y+(tamano*8), YES, OFF);glcd_text57(x+2, y+1, voltage, tamano, ON);}
+
+}
+
+void displayMenu(char palabra[100], int x, int y, int sombreado, int tamano)
+{
+   strcpy(Menus.Letra,palabra);
+   if(sombreado==1)
+      {glcd_rect(0, y, 127, y+(tamano*8), YES, ON);glcd_text57(x+1, y+1, Menus.Letra, tamano, OFF);}
+   if(sombreado==0)
+      {glcd_rect(0, y, 127, y+(tamano*8), YES, OFF);glcd_text57(x+1, y+1, Menus.Letra, tamano, ON);}
+
+}
+
+void displayfloat(float adc,int x,int y,int sombreado, int tamano) {
+   char voltage[9];    
+      sprintf(voltage, "%2.0f°C",adc); // Converts adc to text
+      
+   if(sombreado==1)
+      {glcd_rect(x, y, x+(tamano*20), y+(tamano*8), YES, ON);glcd_text57(x+2, y+1, voltage, tamano, OFF);}
+   if(sombreado==0)
+      {glcd_rect(x, y, x+(tamano*20), y+(tamano*8), YES, OFF);glcd_text57(x+2, y+1, voltage, tamano, ON);}
+      
+}
+
+// Funcion para conversor analogo-digital
+unsigned int16 sensores(int x){
+unsigned int16 y;set_adc_channel(x);delay_ms(1);y=read_adc();return (y);
+}
+void displayTemperatura(int16 digito, int x, int y, int sombreado, int tamano)
+{
+   char voltage[9];
+   
+   if(sombreado==2)
+   {
+      sprintf(voltage, "%04Lu", digito);
+      glcd_rect(x, y, x+(tamano*18), y+(tamano*8), YES, ON);
+      glcd_text57(x+1, y+1, voltage, tamano, OFF);
+   }
+   else
+   {
+      sprintf(voltage, "%04Lu", digito);
+   
+      if(sombreado==4)
+      {
+         glcd_rect(x, y, x+(tamano*16), y+(tamano*8), YES, OFF);
+         glcd_text57(x+1, y+1, voltage, tamano, ON);
+      }
+      if(sombreado==1)
+         {glcd_rect(x, y, x+(tamano*5), y+(tamano*8), YES, ON);glcd_text57(x+1, y+1, voltage, tamano, OFF);}
+      if(sombreado==0)
+         {glcd_rect(x, y, x+(tamano*5), y+(tamano*8), YES, OFF);glcd_text57(x+1, y+1, voltage, tamano, ON);}
+   }
+   glcd_update();
+}

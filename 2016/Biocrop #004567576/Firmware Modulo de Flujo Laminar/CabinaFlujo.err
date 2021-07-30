@@ -1,0 +1,11 @@
+>>> Warning 202 "CabinaFlujo.c" Line 38(125,131): Variable never used:   flagmv
+>>> Warning 202 "CabinaFlujo.c" Line 45(6,12): Variable never used:   Entero
+>>> Warning 202 "CabinaFlujo.c" Line 45(15,23): Variable never used:   Decimal1
+>>> Warning 202 "CabinaFlujo.c" Line 45(26,34): Variable never used:   Decimal2
+>>> Warning 202 "CabinaFlujo.c" Line 45(47,56): Variable never used:   Decimal12
+>>> Warning 202 "CabinaFlujo.c" Line 48(73,85): Variable never used:   zero_fabrica
+>>> Warning 202 "CabinaFlujo.c" Line 49(21,31): Variable never used:   Temporal12
+>>> Warning 202 "CabinaFlujo.c" Line 49(36,43): Variable never used:   Ajuste1
+>>> Warning 202 "CabinaFlujo.c" Line 49(48,53): Variable never used:   x_uno
+      Memory usage:   ROM=42%      RAM=10% - 12%
+      0 Errors,  9 Warnings.

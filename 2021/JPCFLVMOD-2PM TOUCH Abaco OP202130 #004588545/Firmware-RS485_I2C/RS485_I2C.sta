@@ -1,0 +1,68 @@
+
+ROM used: 2840 (9%)
+          2840 (9%) including unused fragments
+
+          1 Average locations per line
+          5 Average locations per statement
+
+RAM used: 1275 (62%) at main() level
+          1292 (63%) worst case
+
+Stack used: 9 worst case (out of 31 total available)
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+  269   163  29  RS485_I2C.c
+  392     0   0  C:\Program Files (x86)\PICC\Devices\18F2550.h
+ 1840   395  71  modbus.c
+----- -----
+ 2501   558 Total
+
+Page ROM  %  RAM   Vol Diff  Functions:
+---- --- --- ---   --- ----  ----------
+0     30   1   1             @delay_us1
+0     24   0   1             @I2C_WRITE_1
+0     10   0   0             @PUTCHARI_BIU_2
+0     22   0   0             @GETCH_BIU_2
+0    290   5   0             @const128
+0    290   5   0             @const130
+0     12   0   0   172  2.7  RCV_ON
+0     24   0   0   130  2.3  modbus_init
+0     18   0   1   121  2.2  modbus_enable_timeout
+0     50   1   0   254  5.0  modbus_timeout_now
+0     62   1   3   256  3.7  modbus_calc_crc
+0     38   1   1   125  2.6  modbus_serial_putc
+0    102   2   3   778  6.3  incomming_modbus_serial
+0     50   1   3   274  4.3  modbus_serial_send_start
+0     60   1   3   432  5.7  modbus_serial_send_stop
+0     32   1   0   225  5.4  modbus_kbhit
+0    150   3   6   504  5.7  modbus_read_holding_registers
+0    150   3   6   504  5.7  modbus_write_single_register
+0    114   2   3   255  3.6  ssp_interupt
+0    136   2   2   513  3.3  Lee_Vector
+0     34   1   5             @MUL1616
+0    512   9   4  8827  8.2  read_all_holding
+0     82   1   4   136  1.9  write_reg
+0    378   7   2   929  6.3  MAIN
+
+Program metrics:
+    Functions               17
+    Statements              558
+    Comments                627
+    Volume (V)              20426
+    Difficilty (D)          81.5
+    Effort to implement (E) 1664973
+    Time to implement (T)   25 hours, 42 minutes
+    Est Delivered Bugs (B)  5
+    Cyclomatic Complexity   29
+    Maintainability (MI)    78
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00002     4  0  
+00004-00006     0  4  
+00008-000AC   166  0  
+000AE-07FFE  2670  29924  
+
+
+

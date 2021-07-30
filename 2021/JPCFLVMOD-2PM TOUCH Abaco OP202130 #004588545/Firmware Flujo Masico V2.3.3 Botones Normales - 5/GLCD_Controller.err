@@ -1,0 +1,5 @@
+>>> Warning 202 "GLCD_Controller.c" Line 8(5,8): Variable never used:   rs232_errors
+>>> Warning 202 "GLCD_Controller.c" Line 85(101,109): Variable never used:   Qexhaust
+>>> Warning 202 "GLCD_Controller.c" Line 85(114,123): Variable never used:   Qdownflow
+      Memory usage:   ROM=63%      RAM=49% - 52%
+      0 Errors,  3 Warnings.

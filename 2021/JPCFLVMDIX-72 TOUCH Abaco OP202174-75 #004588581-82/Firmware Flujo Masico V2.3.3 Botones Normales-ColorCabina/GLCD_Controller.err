@@ -1,0 +1,32 @@
+>>> Warning 202 "GLCD_Controller.c" Line 8(5,8): Variable never used:   rs232_errors
+>>> Warning 202 "GLCD_Controller.c" Line 70(126,134): Variable never used:   guardauv
+>>> Warning 202 "GLCD_Controller.c" Line 71(69,76): Variable never used:   Alarmas
+>>> Warning 202 "GLCD_Controller.c" Line 71(81,90): Variable never used:   flagError
+>>> Warning 202 "GLCD_Controller.c" Line 72(52,55): Variable never used:   ECO
+>>> Warning 202 "GLCD_Controller.c" Line 75(85,96): Variable never used:   instruccion
+>>> Warning 202 "GLCD_Controller.c" Line 75(99,106): Variable never used:   address
+>>> Warning 202 "GLCD_Controller.c" Line 75(109,113): Variable never used:   regl
+>>> Warning 202 "GLCD_Controller.c" Line 75(116,120): Variable never used:   regh
+>>> Warning 202 "GLCD_Controller.c" Line 75(123,128): Variable never used:   pwm1l
+>>> Warning 202 "GLCD_Controller.c" Line 75(131,136): Variable never used:   pwm1h
+>>> Warning 202 "GLCD_Controller.c" Line 75(139,144): Variable never used:   pwm2l
+>>> Warning 202 "GLCD_Controller.c" Line 75(147,152): Variable never used:   pwm2h
+>>> Warning 202 "GLCD_Controller.c" Line 76(112,118): Variable never used:   Digito
+>>> Warning 202 "GLCD_Controller.c" Line 76(121,132): Variable never used:   conteoError
+>>> Warning 202 "GLCD_Controller.c" Line 79(16,25): Variable never used:   Temporal1
+>>> Warning 202 "GLCD_Controller.c" Line 81(66,70): Variable never used:   pwm1
+>>> Warning 202 "GLCD_Controller.c" Line 81(73,77): Variable never used:   pwm2
+>>> Warning 202 "GLCD_Controller.c" Line 81(80,83): Variable never used:   rpm
+>>> Warning 202 "GLCD_Controller.c" Line 81(86,89): Variable never used:   reg
+>>> Warning 202 "GLCD_Controller.c" Line 85(13,23): Variable never used:   Contrasena
+>>> Warning 202 "GLCD_Controller.c" Line 86(7,13): Variable never used:   Inflow
+>>> Warning 202 "GLCD_Controller.c" Line 87(43,50): Variable never used:   QExflow
+>>> Warning 202 "GLCD_Controller.c" Line 87(55,60): Variable never used:   tempo
+>>> Warning 202 "GLCD_Controller.c" Line 88(101,109): Variable never used:   Qexhaust
+>>> Warning 202 "GLCD_Controller.c" Line 88(114,123): Variable never used:   Qdownflow
+>>> Warning 202 "GLCD_Controller.c" Line 112(6,15): Variable never used:   SlaveA0Tx
+>>> Warning 202 "GLCD_Controller.c" Line 114(6,10): Variable never used:   dato
+>>> Warning 202 "GLCD_Controller.c" Line 115(6,15): Variable never used:   direccion
+>>> Warning 202 "GLCD_Controller.c" Line 116(6,14): Variable never used:   posicion
+      Memory usage:   ROM=57%      RAM=57% - 59%
+      0 Errors,  30 Warnings.

@@ -1,0 +1,4 @@
+>>> Warning 202 "CabinaCFLH.c" Line 48(26,31): Variable never used:   Ruido
+>>> Warning 202 "CabinaCFLH.c" Line 49(6,10): Variable never used:   dato
+      Memory usage:   ROM=44%      RAM=9% - 11%
+      0 Errors,  2 Warnings.

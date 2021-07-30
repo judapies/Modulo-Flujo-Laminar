@@ -1,0 +1,171 @@
+
+ROM used: 18320 (56%)
+          18322 (56%) including unused fragments
+
+          4 Average locations per line
+          11 Average locations per statement
+
+RAM used: 216 (14%) at main() level
+          253 (16%) worst case
+
+Stack used: 7 worst case (out of 31 total available)
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+ 1140  1072  64  CabinaCFLH.c
+  457     0   0  C:\Program Files (x86)\PICC\Devices\18F4520.h
+ 2172   260  15  MATH.h
+  172    74   4  LCD420.c
+  293   276  16  Funciones.h
+----- -----
+ 4234  1682 Total
+
+Page ROM  %  RAM   Vol Diff  Functions:
+---- --- --- ---   --- ----  ----------
+0     38   0   1             @delay_ms1
+0    830   2  20  1124 10.7  CEIL_FLOOR
+0    118   0  10             @FLT
+0     56   0   4             @SFTOI
+0     54   0   2             @ITOF
+0    346   1  14             @DIVFF
+0    618   2  16             @ADDFF
+0    242   1  11             @MULFF
+0     22   0   4    43  2.1  floor
+0     36   0   0             @const208
+0     88   0   3   463  4.3  lcd_read_byte
+0     40   0   1   134  2.2  lcd_send_nibble
+0     70   0   3   317  4.3  lcd_send_byte
+0     94   0   2   422  4.7  lcd_init
+0     56   0   3   321  5.5  lcd_gotoxy
+0     50   0   0             @goto10585
+0    102   0   1   439  6.1  lcd_putc
+0    184   1   3   846  2.9  mensajes
+0     20   0   0             @const333
+0     32   0   2             @PSTRINGC_230
+0     20   0   0             @const335
+0     20   0   0             @const336
+0     20   0   0             @const337
+0     20   0   0             @const338
+0     20   0   0             @const339
+0     20   0   0             @const340
+0     86   0   5   100  2.1  sensores
+0    590   2  21   730  8.2  Leer_Sensor_Presion
+0      2   0   0     5  1.0  EliminaRuido
+0     60   0   0   233  1.8  ConfigInterrupciones
+0    104   0   1   318  1.8  MensajeBienvenida
+0     22   0   0             @const353
+0     22   0   0             @const354
+0     22   0   0             @const355
+0     22   0   0             @const356
+0    890   2   4  1855  3.0  LeeEEPROM
+0   1326   4   1  3108  4.9  LimitaValores
+0     38   0   0   243  4.1  bajarVidrio
+0     38   0   0   243  4.1  subirVidrio
+0     12   0   0    50  1.5  detenerVidrio
+0    428   1   1   718  5.3  cuentaTiempoTrabajoFiltro
+0    122   0   1   843  6.3  temp1s
+0   8560  23   4 52555 14.0  MAIN
+0     22   0   0             @const369
+0     22   0   0             @const370
+0     22   0   0             @const371
+0     30   0   3             @PSTRINGCN_230
+0     40   0   3             @DIV88
+0    200   1   6             @PRINTF_D_230
+0     20   0   0             @const382
+0     20   0   0             @const383
+0     20   0   0             @const384
+0     20   0   0             @const385
+0     20   0   0             @const388
+0     20   0   0             @const389
+0     20   0   0             @const390
+0     22   0   0             @const392
+0     22   0   0             @const395
+0     22   0   0             @const396
+0     18   0   0             @const397
+0    102   0   2             @PRINTF_U_230
+0     18   0   0             @const403
+0     18   0   0             @const404
+0     22   0   0             @const406
+0     22   0   0             @const407
+0     22   0   0             @const408
+0     22   0   0             @const412
+0     22   0   0             @const413
+0     22   0   0             @const414
+0     22   0   0             @const415
+0     22   0   0             @const417
+0     22   0   0             @const418
+0     22   0   0             @const419
+0     22   0   0             @const420
+0     22   0   0             @const422
+0     22   0   0             @const423
+0     22   0   0             @const424
+0     22   0   0             @const428
+0     22   0   0             @const429
+0     22   0   0             @const430
+0     22   0   0             @const431
+0     22   0   0             @const433
+0     20   0   0             @const434
+0    180   0   9             @PRINTF_LU_230
+0     22   0   0             @const437
+0     18   0   0             @const439
+0     18   0   0             @const440
+0     22   0   0             @const443
+0     22   0   0             @const444
+0     64   0   5             @FTOSD
+0    122   0  13             @DIV3232
+0    390   1  13             @PRINTF_L32D_230FPFPF
+0     14   0   0             @const453
+0     14   0   0             @const454
+0     22   0   0             @const457
+0     22   0   0             @const458
+0     22   0   0             @const459
+0     22   0   0             @const460
+0     22   0   0             @const461
+0     22   0   0             @const462
+0     22   0   0             @const463
+0     22   0   0             @const464
+0     22   0   0             @const466
+0     22   0   0             @const467
+0     20   0   0             @const468
+0     22   0   0             @const469
+0     22   0   0             @const471
+0     22   0   0             @const472
+0     22   0   0             @const473
+0     22   0   0             @const474
+0     22   0   0             @const476
+0     20   0   0             @const477
+0     20   0   0             @const478
+0     16   0   0             @const481
+0      8   0   0             @const482
+0     10   0   0             @const483
+0     10   0   0             @const484
+0      8   0   0             @const485
+0      8   0   0             @const486
+0      8   0   0             @const487
+0      8   0   0             @const488
+0     22   0   0             @const490
+0     22   0   0             @const491
+0     22   0   0             @const492
+0     22   0   0             @const493
+
+Program metrics:
+    Functions               22
+    Statements              1682
+    Comments                647
+    Volume (V)              79118
+    Difficilty (D)          99.7
+    Effort to implement (E) 7889742
+    Time to implement (T)   121 hours, 45 minutes
+    Est Delivered Bugs (B)  13
+    Cyclomatic Complexity   224
+    Maintainability (MI)    99
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00002     4  0  
+00004-00006     2  2  
+00008-000A4   158  0  
+000A6-07FFE  18156  14446  
+
+
+

@@ -1,0 +1,67 @@
+
+ROM used: 2098 (51%)
+          2909 (71%) including unused fragments
+
+          1 Average locations per line
+          7 Average locations per statement
+
+RAM used: 135 (53%) at main() level
+          162 (64%) worst case
+
+Stack used: 8 worst case (out of 8 total available)
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+  284    83  26  ex_modbus_slave.c
+  394     0   0  C:\Program Files (x86)\PICC\Devices\16F690.h
+ 1840   232  74  modbus.c
+----- -----
+ 2518   315 Total
+
+Page ROM  %  RAM   Vol Diff  Functions:
+---- --- --- ---   --- ----  ----------
+0     11   1   0             @GETCH_BIU_1
+0    263  13   0             @const116
+0    263  13   0             @const118
+0      9   0   0   172  2.7  RCV_ON
+0     17   1   0   130  2.3  modbus_init
+0     12   1   1   121  2.2  modbus_enable_timeout
+0     28   1   0   254  5.0  modbus_timeout_now
+0     18   1   2   256  3.7  modbus_calc_crc
+0     23   1   1   125  2.6  modbus_serial_putc
+0     61   3   3   749  6.3  incomming_modbus_serial
+0     24   1   2   274  4.3  modbus_serial_send_start
+0     33   2   2   432  5.7  modbus_serial_send_stop
+0     17   1   0   225  5.4  modbus_kbhit
+0     43   2   6   236  4.7  modbus_read_discrete_input_rsp
+0     74   4   8   328  5.0  modbus_read_holding_registers_rsp
+0     74   4   8   328  5.0  modbus_read_input_registers_rsp
+0     34   2   6   253  1.9  modbus_write_single_coil_rsp
+0     34   2   6   253  1.9  modbus_write_single_register_rsp
+0     34   2   6   253  1.9  modbus_write_multiple_coils_rsp
+0     34   2   6   253  1.9  modbus_write_multiple_registers_rsp
+0     19   1   6   110  2.0  modbus_exception_rsp
+0     53   3   2   464  3.8  swap_bits
+1    861  41  48  8383 17.3  MAIN
+
+Program metrics:
+    Functions               20
+    Statements              315
+    Comments                692
+    Volume (V)              19752
+    Difficilty (D)          87.4
+    Effort to implement (E) 1725570
+    Time to implement (T)   26 hours, 38 minutes
+    Est Delivered Bugs (B)  5
+    Cyclomatic Complexity   36
+    Maintainability (MI)    105
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00003     4  0  
+00004-0003A    55  0  
+0003B-007FF  1178  811  
+00800-00FFF   861  1187  
+
+
+

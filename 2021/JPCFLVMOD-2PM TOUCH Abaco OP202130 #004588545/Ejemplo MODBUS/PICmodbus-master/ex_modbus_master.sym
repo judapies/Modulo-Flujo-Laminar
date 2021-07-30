@@ -1,0 +1,289 @@
+000     @SCRATCH
+001     @SCRATCH
+001     _RETURN_
+002     @SCRATCH
+003     @SCRATCH
+004     @INTERRUPT_AREA
+005     @INTERRUPT_AREA
+006     @INTERRUPT_AREA
+007     @INTERRUPT_AREA
+008     @INTERRUPT_AREA
+009     @INTERRUPT_AREA
+00A     @INTERRUPT_AREA
+00B     @INTERRUPT_AREA
+00C     @INTERRUPT_AREA
+00D     @INTERRUPT_AREA
+00E     @INTERRUPT_AREA
+00F     @INTERRUPT_AREA
+010     @INTERRUPT_AREA
+011     @INTERRUPT_AREA
+012     @INTERRUPT_AREA
+013     @INTERRUPT_AREA
+014     @INTERRUPT_AREA
+015     @INTERRUPT_AREA
+016     @INTERRUPT_AREA
+017     rs232_errors
+018-01B modbus_serial_wait
+01C.0   modbus_serial_new
+01D     modbus_serial_state
+01E-01F modbus_serial_crc
+020-063 modbus_rx
+064     i
+065     MAIN.c
+066     parse_read.c
+066     parse_write.c
+066     lcd_init.i
+066     @GETCH_1_.@SCRATCH1
+066     MAIN.@SCRATCH1
+067     modbus_diagnostics.address
+067     modbus_write_single_coil.address
+067     modbus_read_coils.address
+067     modbus_read_input_registers.address
+067     write_coils.coils
+067     modbus_read_discrete_input.address
+067     modbus_read_holding_registers.address
+067-06A write_regs.reg_array
+067     modbus_write_single_register.address
+067     lcd_init.@SCRATCH1
+067     read_all_coils.@SCRATCH1
+067     read_all_inputs.@SCRATCH1
+067     read_all_holding.@SCRATCH1
+067     read_all_input_reg.@SCRATCH1
+067     @PSTRINGC_265.@SCRATCH1
+067     write_coil.@SCRATCH1
+067     write_reg.@SCRATCH1
+067     unknown_func.@SCRATCH1
+068-069 modbus_read_discrete_input.start_address
+068-069 modbus_diagnostics.sub_func
+068-069 modbus_read_input_registers.start_address
+068-069 modbus_write_single_coil.output_address
+068-069 modbus_read_coils.start_address
+068-069 modbus_read_holding_registers.start_address
+068     modbus_write_multiple_coils.address
+068-069 modbus_write_single_register.reg_address
+068     @PRINTF_X_265.P1
+068     @PSTRINGC_265.@SCRATCH2
+068     write_coils.@SCRATCH1
+069     @PRINTF_X_265.P1
+069-06A modbus_write_multiple_coils.start_address
+06A     modbus_write_single_coil.on
+06A-06B modbus_read_input_registers.quantity
+06A-06B modbus_write_single_register.reg_value
+06A-06B modbus_read_coils.quantity
+06A-06B modbus_read_discrete_input.quantity
+06A-06B modbus_read_holding_registers.quantity
+06A-06B modbus_diagnostics.data
+06A     lcd_putc.c
+06B-06C modbus_write_multiple_coils.quantity
+06B     modbus_write_multiple_registers.address
+06B     lcd_gotoxy.x
+06B     @PSTRINGCN_66.P1
+06B     modbus_write_single_coil.@SCRATCH1
+06B     @PSTRINGC_66.@SCRATCH1
+06B     write_regs.@SCRATCH1
+06C     @PRINTF_X_66.P1
+06C     lcd_gotoxy.y
+06C-06D modbus_write_multiple_registers.start_address
+06C     modbus_read_coils.@SCRATCH1
+06C     modbus_read_discrete_input.@SCRATCH1
+06C     modbus_read_holding_registers.@SCRATCH1
+06C     modbus_read_input_registers.@SCRATCH1
+06C     modbus_write_single_register.@SCRATCH1
+06C     modbus_diagnostics.@SCRATCH1
+06C     @PSTRINGC_66.@SCRATCH2
+06C     @PSTRINGCN_66.@SCRATCH1
+06D     @PRINTF_X_66.P1
+06D     lcd_gotoxy.address
+06D-06E modbus_write_multiple_coils.values
+06D     @PSTRINGCN_66.@SCRATCH2
+06E-06F modbus_write_multiple_registers.quantity
+06E     @PUTCHAR_1_.P1
+06E     lcd_gotoxy.@SCRATCH1
+06F     modbus_write_multiple_coils.i
+06F     lcd_send_byte.address
+070     lcd_send_byte.n
+070     modbus_write_multiple_coils.count
+070-071 modbus_write_multiple_registers.values
+071     modbus_write_multiple_coils.@SCRATCH1
+071     lcd_send_byte.@SCRATCH1
+072     lcd_send_nibble.n
+072     modbus_write_multiple_registers.i
+073     modbus_write_multiple_registers.count
+074     modbus_serial_send_stop.crc_low
+074     modbus_serial_send_start.to
+074     modbus_write_multiple_registers.@SCRATCH1
+075     modbus_serial_send_stop.crc_high
+075     modbus_serial_send_start.func
+075     modbus_write_multiple_registers.@SCRATCH2
+076     @delay_ms1.P1
+076     modbus_serial_send_start.@SCRATCH1
+076     modbus_serial_send_stop.@SCRATCH1
+076     modbus_write_multiple_registers.@SCRATCH3
+077     @delay_us1.P1
+077     modbus_serial_putc.c
+07B     incomming_modbus_serial.c
+07C     modbus_enable_timeout.enable
+07C     modbus_calc_crc.data
+07C     incomming_modbus_serial.@SCRATCH1
+07D     modbus_calc_crc.uIndex
+07D     incomming_modbus_serial.@SCRATCH2
+07E     modbus_calc_crc.@SCRATCH1
+F83     PSP_DATA
+F83     lcd_4bit
+FAC     TXSTA
+FAC.1   TRMT
+FB4.6   C1OUT
+FB4.7   C2OUT
+FBB     CCP_2
+FBB     CCP_2_LOW
+FBC     CCP_2_HIGH
+FBE     CCP_1_LOW
+FBE     CCP_1
+FBF     CCP_1_HIGH
+FE1-FE2 @READ_PACKED_MEMORY.P1
+FE1-FE2 @WRITE_PACKED_MEMORY.P2
+FE9-FEA @READ_PROGRAM_MEMORY.P1
+FE9-FEA @WRITE_PACKED_MEMORY.P2
+FE9-FEA @WRITE_PROGRAM_MEMORY.P3
+FE9-FEA @READ_PACKED_MEMORY.P4
+FF6-FF8 @READ_PROGRAM_MEMORY.P1
+FF6-FF8 @WRITE_PROGRAM_MEMORY.P2
+
+ROM Allocation:
+07B4  @delay_ms1
+0A12  @delay_us1
+088A  @PUTCHAR_1_
+09CA  @GETCH_1_
+0A36  @PUTCHARI_BIU_2
+0340  @GETCH_BIU_2
+00A2  modbus_auchCRCHi
+01C4  modbus_auchCRCLo
+08EA  RCV_ON
+08F6  modbus_init
+0304  modbus_enable_timeout
+0312  modbus_timeout_now
+0356  modbus_calc_crc
+0A40  modbus_serial_putc
+0388  incomming_modbus_serial
+0A62  modbus_serial_send_start
+0A92  modbus_serial_send_stop
+0ACC  modbus_kbhit
+0AEC  modbus_read_coils
+0C60  modbus_read_discrete_input
+0D78  modbus_read_holding_registers
+0E90  modbus_read_input_registers
+106E  modbus_write_single_coil
+118C  modbus_write_single_register
+15F8  modbus_diagnostics
+12AC  modbus_write_multiple_coils
+1442  modbus_write_multiple_registers
+02E6  LCD_INIT_STRING
+07DC  lcd_send_nibble
+07FA  lcd_send_byte
+0832  lcd_init
+090E  lcd_gotoxy
+0930  lcd_putc
+0994  print_menu
+03F6  @const271
+08CA  @PSTRINGC_66
+0424  @const273
+045A  @const274
+0490  @const275
+04D4  @const276
+0BD2  read_all_coils
+0514  @const278
+051E  @const279
+0B76  @PRINTF_X_66
+0526  @const284
+052C  @const285
+0BB4  @PSTRINGCN_66
+0CEA  read_all_inputs
+0546  @const289
+0550  @const290
+0558  @const292
+055E  @const293
+0E02  read_all_holding
+0578  @const295
+058E  @const296
+0596  @const298
+059C  @const299
+0F5A  read_all_input_reg
+05B6  @const301
+05CA  @const302
+05D2  @const303
+0974  @PSTRINGC_265
+0F1A  @PRINTF_X_265
+05EC  @const310
+05F2  @const311
+10F8  write_coil
+060C  @const313
+0624  @const314
+062C  @const316
+0632  @const317
+1216  write_reg
+064C  @const319
+0668  @const320
+0670  @const322
+0676  @const323
+139A  write_coils
+0690  @const326
+06AA  @const327
+06B2  @const329
+06B8  @const330
+154A  write_regs
+06D2  @const333
+06F0  @const334
+06F8  @const336
+06FE  @const337
+1690  unknown_func
+0718  @const339
+0732  @const340
+0740  @const341
+0746  @const343
+074C  @const344
+1020  parse_read
+1042  @goto10935
+1736  parse_write
+175C  @goto10949
+178A  MAIN
+0766  @const354
+0778  @const355
+0784  @const356
+079C  @const357
+178A  @cinit
+
+
+User Memory space: 
+
+User Memory space: 
+
+Project Directory:
+    D:\Laboratorio\Modulo Flujo Laminar\2021\JPCFLVMOD-2PM TOUCH Abaco OP202130 #0045884XX\Ejemplo MODBUS\PICmodbus-master\
+
+Project Files:
+    ex_modbus_master.c
+    C:\Program Files (x86)\PICC\Devices\18f458.h
+    modbus.c
+    lcd.c
+
+Units:
+    D:\Laboratorio\Modulo Flujo Laminar\2021\JPCFLVMOD-2PM TOUCH Abaco OP202130 #0045884XX\Ejemplo MODBUS\PICmodbus-master\ex_modbus_master (main)
+
+Compiler Settings:
+    Processor:      PIC18F458
+    Pointer Size:   16
+    ADC Range:      0-255
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+
+Output Files:
+    Errors:      ex_modbus_master.err
+    Ext Symbols: ex_modbus_master.esym
+    INHX32:      ex_modbus_master.hex
+    Symbols:     ex_modbus_master.sym
+    List:        ex_modbus_master.lst
+    Debug/COFF:  ex_modbus_master.cof
+    Project:     ex_modbus_master.PJT
+    Call Tree:   ex_modbus_master.tre
+    Statistics:  ex_modbus_master.sta

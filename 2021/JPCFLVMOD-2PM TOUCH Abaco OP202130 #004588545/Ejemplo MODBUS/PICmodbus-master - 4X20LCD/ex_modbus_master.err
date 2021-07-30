@@ -1,0 +1,11 @@
+>>> Warning 206 "D:\Laboratorio\Modulo Flujo Laminar\2021\JPCFLVMOD-2PM TOUCH Abaco OP202130 #0045884XX\Ejemplo MODBUS\PICmodbus-master - 4X20LCD\modbus.c" Line 712(1,1): Variable of this data type is never greater than this constant
+>>> Warning 204 "D:\Laboratorio\Modulo Flujo Laminar\2021\JPCFLVMOD-2PM TOUCH Abaco OP202130 #0045884XX\Ejemplo MODBUS\PICmodbus-master - 4X20LCD\modbus.c" Line 712(1,1): Condition always FALSE
+>>> Warning 216 "ex_modbus_master.c" Line 467(0,1): Interrupts disabled during call to prevent re-entrancy:  (modbus_calc_crc)
+>>> Warning 202 "D:\Laboratorio\Modulo Flujo Laminar\2021\JPCFLVMOD-2PM TOUCH Abaco OP202130 #0045884XX\Ejemplo MODBUS\PICmodbus-master - 4X20LCD\modbus.c" Line 236(8,11): Variable never used:   rs232_errors
+>>> Warning 202 "ex_modbus_master.c" Line 285(9,10): Variable never used:   c
+>>> Warning 202 "ex_modbus_master.c" Line 286(10,15): Variable never used:   subop
+>>> Warning 202 "ex_modbus_master.c" Line 287(9,13): Variable never used:   menu
+>>> Warning 202 "ex_modbus_master.c" Line 287(16,22): Variable never used:   Opcion
+>>> Warning 202 "ex_modbus_master.c" Line 287(25,31): Variable never used:   pagina
+      Memory usage:   ROM=9%      RAM=52% - 53%
+      0 Errors,  9 Warnings.

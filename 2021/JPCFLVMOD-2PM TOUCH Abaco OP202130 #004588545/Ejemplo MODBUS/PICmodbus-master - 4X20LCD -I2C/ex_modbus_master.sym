@@ -1,0 +1,201 @@
+000     @SCRATCH
+001     @SCRATCH
+001     _RETURN_
+002     @SCRATCH
+003     @SCRATCH
+004     @INTERRUPT_AREA
+005     @INTERRUPT_AREA
+006     @INTERRUPT_AREA
+007     @INTERRUPT_AREA
+008     @INTERRUPT_AREA
+009     @INTERRUPT_AREA
+00A     @INTERRUPT_AREA
+00B     @INTERRUPT_AREA
+00C     @INTERRUPT_AREA
+00D     @INTERRUPT_AREA
+00E     @INTERRUPT_AREA
+00F     @INTERRUPT_AREA
+010     @INTERRUPT_AREA
+011     @INTERRUPT_AREA
+012     @INTERRUPT_AREA
+013     @INTERRUPT_AREA
+014     @INTERRUPT_AREA
+015     @INTERRUPT_AREA
+016     @INTERRUPT_AREA
+017     rs232_errors
+018-01B modbus_serial_wait
+01C.0   modbus_serial_new
+01D     modbus_serial_state
+01E-01F modbus_serial_crc
+020-422 modbus_rx
+423     instruccion
+424     address
+425     regl
+426     regh
+427     i
+428-429 reg
+42A     fstate
+42B     posicion
+42C-45D buffer
+45E-48F txbuf
+490-4C1 rxbuf
+4C2     @I2C_STATE
+4C3     MAIN.c
+4C4.0   MAIN.subop
+4C5     MAIN.menu
+4C6     MAIN.Opcion
+4C7     MAIN.pagina
+4C8     MAIN.dir
+4C9     MAIN.reg
+4CA     @PRINTF_U_68.P1
+4CA     @PSTRINGCN_68.P2
+4CA     @delay_ms1.P3
+4CA-4CB @MUL1616.P4
+4CA     Lee_Vector.@SCRATCH1
+4CA     @PSTRINGC_68.@SCRATCH1
+4CA     MAIN.@SCRATCH1
+4CB     @PRINTF_U_68.P1
+4CB     Lee_Vector.@SCRATCH2
+4CB     @PSTRINGC_68.@SCRATCH2
+4CB     @PSTRINGCN_68.@SCRATCH1
+4CB     MAIN.@SCRATCH2
+4CC-4CD @MUL1616.P1
+4CC     @DIV88.P2
+4CC     @PSTRINGCN_68.@SCRATCH2
+4CD     @DIV88.P1
+4CD     @PUTCHAR_1_.P2
+4CE     @DIV88.@SCRATCH1
+4CE     @MUL1616.@SCRATCH1
+4CF     incomming_modbus_serial.c
+4CF     ssp_interupt.incoming
+4D0     modbus_enable_timeout.enable
+4D0     modbus_calc_crc.data
+4D0     incomming_modbus_serial.@SCRATCH1
+4D0     ssp_interupt.@SCRATCH1
+4D1     modbus_calc_crc.uIndex
+4D1     @I2C_WRITE_1.P1
+4D1     incomming_modbus_serial.@SCRATCH2
+4D1     ssp_interupt.@SCRATCH2
+4D2     modbus_calc_crc.@SCRATCH1
+FAC     TXSTA
+FAC.1   TRMT
+FB4.6   C1OUT
+FB4.7   C2OUT
+FBB     CCP_2_LOW
+FBB     CCP_2
+FBC     CCP_2_HIGH
+FBE     CCP_1
+FBE     CCP_1_LOW
+FBF     CCP_1_HIGH
+FE1-FE2 @READ_PACKED_MEMORY.P1
+FE1-FE2 @WRITE_PACKED_MEMORY.P2
+FE9-FEA @READ_PROGRAM_MEMORY.P1
+FE9-FEA @READ_PACKED_MEMORY.P2
+FE9-FEA @WRITE_PACKED_MEMORY.P3
+FE9-FEA @WRITE_PROGRAM_MEMORY.P4
+FF6-FF8 @WRITE_PROGRAM_MEMORY.P1
+FF6-FF8 @READ_PROGRAM_MEMORY.P2
+
+ROM Allocation:
+07E8  @delay_ms1
+03CE  @I2C_WRITE_1
+0812  @PUTCHAR_1_
+0312  @GETCH_BIU_2
+00AE  modbus_auchCRCHi
+01BE  modbus_auchCRCLo
+0878  RCV_ON
+0886  modbus_init
+02CE  modbus_enable_timeout
+02E0  modbus_timeout_now
+0328  modbus_calc_crc
+0368  incomming_modbus_serial
+091E  @DIV88
+03E6  ssp_interupt
+08C2  Lee_Vector
+089E  @MUL1616
+0454  @const266
+0858  @PSTRINGC_68
+0482  @const268
+04B8  @const269
+04EE  @const270
+0532  @const271
+0572  @const273
+057C  @const274
+0584  @const279
+058A  @const280
+08F6  @PSTRINGCN_68
+05A4  @const284
+05AE  @const285
+05B6  @const287
+05BC  @const288
+05D6  @const292
+05EC  @const293
+05F4  @const295
+05FA  @const296
+0614  @const300
+0628  @const301
+0630  @const303
+0636  @const304
+0650  @const306
+0668  @const307
+0670  @const309
+0676  @const310
+0690  @const314
+06AC  @const315
+06B4  @const317
+06BA  @const318
+06D4  @const321
+06EE  @const322
+06F6  @const324
+06FC  @const325
+0716  @const328
+0734  @const329
+073C  @const331
+0742  @const332
+075C  @const334
+0776  @const335
+0784  @const336
+078A  @const338
+0790  @const339
+09C6  MAIN
+07AA  @const349
+07BC  @const350
+07C8  @const351
+094A  @PRINTF_U_68
+07DA  @const355
+09C6  @cinit
+
+
+User Memory space: 
+
+User Memory space: 
+
+Project Directory:
+    D:\Laboratorio\Modulo Flujo Laminar\2021\JPCFLVMOD-2PM TOUCH Abaco OP202130 #0045884XX\Ejemplo MODBUS\PICmodbus-master - 4X20LCD -I2C\
+
+Project Files:
+    ex_modbus_master.c
+    C:\Program Files (x86)\PICC\Devices\18f2550.h
+    modbus.c
+
+Units:
+    D:\Laboratorio\Modulo Flujo Laminar\2021\JPCFLVMOD-2PM TOUCH Abaco OP202130 #0045884XX\Ejemplo MODBUS\PICmodbus-master - 4X20LCD -I2C\ex_modbus_master (main)
+
+Compiler Settings:
+    Processor:      PIC18F2550
+    Pointer Size:   16
+    ADC Range:      0-255
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+
+Output Files:
+    Errors:      ex_modbus_master.err
+    Ext Symbols: ex_modbus_master.esym
+    INHX32:      ex_modbus_master.hex
+    Symbols:     ex_modbus_master.sym
+    List:        ex_modbus_master.lst
+    Debug/COFF:  ex_modbus_master.cof
+    Project:     ex_modbus_master.PJT
+    Call Tree:   ex_modbus_master.tre
+    Statistics:  ex_modbus_master.sta
